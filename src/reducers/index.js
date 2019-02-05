@@ -9,9 +9,9 @@ export default (state = initialState, action) => {
     case "VOTE_ANGULAR":
       return { ...state, angular: state.angular + 1 };
     case "VOTE_REACT":
-      return { ...state, angular: state.react + 1 };
+      return { ...state, react: state.react + 1 };
     case "VOTE_VUEJS":
-      return { ...state, angular: state.vuejs + 1 };
+      return { ...state, vuejs: state.vuejs + 1 };
 
     default:
       return state;
